@@ -90,6 +90,7 @@ bot.onText(/\/arbitrum/, msg => replyGasMessage(
   msg,
   'Arbitrum',
   arbRpcUrl,
+    '🟦',
   'https://cryptologos.cc/logos/arbitrum-arb-logo.png'
 ));
 
@@ -97,6 +98,7 @@ bot.onText(/\/optimism/, msg => replyGasMessage(
   msg,
   'Optimism',
   optRpcUrl,
+    '🟥',
   'https://cryptologos.cc/logos/optimism-ethereum-op-logo.png'
 ));
 
